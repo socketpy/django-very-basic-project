@@ -98,7 +98,7 @@ DATABASES = {
         },
         'NAME': 'djangosatu',
         'USER': 'root',
-        'PASSWORD': 'rahasia',
+        'PASSWORD': '',
         'HOST': '',
         'PORT': ''
     }
