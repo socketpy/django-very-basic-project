@@ -35,6 +35,12 @@ def home(request):
     return render(request, 'home.html', {'hithere':'this is me'})
 
 # request--> obeject bawaan Django koneksi request ke website kita
+def about(request):
+    # minimal ada 2 yg hrs di passing di sini: request dan nama file template
+    # bisa passing dictionary yg nanti bisa dipanggil di 'home.html'
+    return render(request, 'about.html')
+
+# request--> obeject bawaan Django koneksi request ke website kita
 def count(request):
     #mengabil value dr link: http://localhost/count/?fulltext=
     # saat user klik tombol submit count di home page textarea
